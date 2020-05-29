@@ -1,0 +1,156 @@
+h1
+{
+    margin-top: 50px;
+    color: rgb(245, 97, 0);
+    text-align: center;
+    font-weight: bold;
+}
+h2
+{
+    margin: 20px 50px 0px;
+    color: rgb(245, 97, 0);
+    text-align: left;
+    font-weight: bold;
+}
+h3
+{
+    margin: 0px 50px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+}
+.f21
+{  
+    font-size: 21px;
+}
+.f19
+{
+    font-size: 19px;
+}
+h4
+{
+    margin: 0px 50px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    float: left;
+    font-size: 18px;
+}
+#abstract
+{
+    display: block;
+    margin: 0px 50px;
+    font-weight: bold;
+}
+hr
+{
+    margin: 0px 50px;
+    height: 1px;
+    background-color: #000;
+}
+img
+{
+    margin: 0px 50px;
+}
+
+ /* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 190px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #ddd; /* light grey */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.collapsible {
+  margin: 0px 50px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.content {
+    margin: 0px 50px;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    transition: max-height 0.2s ease-out;
+}
+.collapsible:after {
+  content: '\25B6'; /* Unicode character for "plus" sign (+) */
+  font-size: 18px;
+  color: black;
+  float: left;
+  margin-right: 10px;
+}
+
+.active:after {
+  content: "\25BC"; /* Unicode character for "minus" sign (-) */
+}
+
+.row {
+  margin-left: 50px;
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+.column1 {
+  flex: 15%;
+}
+.column2 {
+  flex: 35%;
+}
+
+.column3 {
+  flex: 15%;
+}
+.column4 {
+  flex: 28%;
+  margin-right: 7%;
+}
+.column5 {
+  flex: 8%;
+}
+.column6 {
+  flex: 86%;
+  margin-right: 6%;
+  text-align: justify;
+}
